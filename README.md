@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @vitalelele
 - 👀 I’m interested in code
-- 🌱 I’m currently learning python, java and c# 
+- 🌱 I’m currently learning Python, Java and C/C#
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me -> send me a message, I'll reply asap :)
 
