@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @vitalelele
 - 👀 I’m interested in code
 - 🌱 I’m currently learning Python, Java and C/C#
-- 💞️ I’m looking to collaborate on ...
+- 👨‍💻 I’m curious to learn about cyber security 🔐
 - 📫 How to reach me -> send me a message, I'll reply asap :)
 
 <!---
