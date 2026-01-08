@@ -1,67 +1,101 @@
 # 👋 Hey, I’m @vitalelele
 
-👀 **Passionate about Coding**  
-I’m a dedicated coder who thrives on creating innovative solutions and exploring new technologies. I love building cool projects and diving deep into different programming languages to expand my knowledge and skills.
+🔐 **Penetration Testing • Offensive Security • Security Tooling**
 
-🌱 **Currently Working On:**  
-- **Languages:** Python, Java, C/C#  
-- **Cyber Security:** Exploring various aspects of cyber security to stay ahead in the ever-evolving tech landscape.
-
-📚 **Curious to Explore:**  
-- **Programming Paradigms:** Investigating new programming paradigms and frameworks to enhance my coding toolkit.  
-- **Advanced Cyber Security:** Delving into advanced topics like ethical hacking, threat modeling, and security protocols to develop robust security solutions.
-
-👨‍💻 **Projects and Highlights:**  
-Here are some of my key projects that showcase my skills and interests:
-
-
-🌟 **Featured Repositories:**
-
-- **[QRX](https://github.com/vitalelele/QRX)**  
-  QRX is a powerful QR code generator and scanner built with Python and Flask. It allows users to create and decode QR codes effortlessly.
-
-  [![QRX](https://github-readme-stats.vercel.app/api/pin/?username=vitalelele&repo=QRX&theme=dark)](https://github.com/vitalelele/QRX)
-
-- **[Misinformation Fight System](https://github.com/vitalelele/Misinformation-Fight-System)**  
-  The Misinformation Fight System is a comprehensive tool designed to detect and combat misinformation across various platforms. Key aspects include:
-  - **Real-Time Analysis:** Analyze text for signs of misinformation using advanced algorithms.
-  - **Integration with Social Media:** Monitor and flag misinformation on popular social media platforms.
-  - **User Feedback Loop:** Allow users to report and review flagged content to improve detection accuracy.
-
-  [![Misinformation Fight System](https://github-readme-stats.vercel.app/api/pin/?username=vitalelele&repo=Misinformation-Fight-System&theme=dark)](https://github.com/vitalelele/Misinformation-Fight-System)
-
-- **[PronuntiApp](https://github.com/vitalelele/PronuntiApp)**  
-  PronuntiApp is an application designed to help users improve their pronunciation skills in multiple languages. Key features include:
-  - **Speech Recognition:** Accurate speech recognition to assess pronunciation.
-  - **Interactive Lessons:** Engaging lessons and exercises for language practice.
-  - **Feedback System:** Immediate feedback and tips for improving pronunciation.
-
-  [![PronuntiApp](https://github-readme-stats.vercel.app/api/pin/?username=vitalelele&repo=PronuntiApp&theme=dark)](https://github.com/vitalelele/PronuntiApp)
-
-
-📈 **GitHub Stats:**  
-Check out my overall GitHub activity and contributions:
-
-![Vitalelele's GitHub stats](https://github-readme-stats.vercel.app/api?username=vitalelele&show_icons=true&theme=dark)
-
-🏆 **Trophies:**  
-Here’s a glimpse of my achievements and milestones on GitHub:
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=vitalelele&theme=dark)](https://github.com/ryo-ma/github-profile-trophy)
-
-📫 **Reach Out to Me:**  
-I’m always open to new opportunities and collaborations. Feel free to send me a message, and I'll get back to you as soon as I can! 😄
+I don't just look for vulnerabilities, I exploit them to demonstrate real-world risk.  
+I don't believe in *security through obscurity*.  
+If we don’t find the cracks first, attackers will.
 
 ---
 
-**Development Approach and Methodologies:**
+## 🧠 About Me
 
-In my development journey, I emphasize clean code practices, efficient problem-solving, and continuous learning. Here’s how I approach my projects:
+I’m driven by curiosity and a simple belief:  
+**to truly understand a system, you first have to break it.**
 
-- **Code Quality:** I follow best practices to ensure code readability and maintainability. This includes writing unit tests and adhering to coding standards.
-- **Version Control:** I use Git for version control to manage project changes and collaborate with other developers effectively.
-- **Documentation:** Comprehensive documentation is crucial for project success. I document my code, setup instructions, and usage guidelines to facilitate easier onboarding and collaboration.
-- **Continuous Integration:** I incorporate CI/CD pipelines to automate testing and deployment processes, ensuring a streamlined workflow and quicker feedback loops.
+I’m passionate about exploring systems beyond their intended boundaries,
+getting where I *shouldn’t* be able to get, and understanding *why* I can.
 
-Let’s build something amazing together!
+Penetration testing, for me, isn’t just about finding vulnerabilities.  
+It’s about thinking like an attacker, chaining weaknesses, and proving real-world impact.
 
+I build tooling that helps turn recon and raw data into actionable findings,
+because defense only works when offense is truly understood.
+
+---
+
+## 🛠️ Focus Areas
+
+**Offensive Security:** Network recon · Web/API testing · Vulnerability validation · Reporting  
+**Security Tooling:** Automation · Data enrichment · Findings normalization · Reporting pipelines  
+**Languages:** Python · Java · C / C#
+
+---
+
+## 🎯 Featured Projects
+
+### 🔎 nmap2report  
+**Automated Security Reporting from Nmap XML**
+
+Turns Nmap XML scans into structured Markdown/PDF reports with host/service discovery, extracted CVEs/CVSS, enrichment (CWE/severity), and per-host risk metrics. Designed for pentest deliverables and repeatable reporting.
+
+🔗 https://github.com/vitalelele/nmap2report
+
+**MITRE ATT&CK (mapping):**
+- Reconnaissance (TA0043): Network Service Discovery (T1046), Network Sniffing/Discovery context (T1040*)
+- Discovery (TA0007): Remote System Discovery (T1018), System/Network Information Discovery (T1082/T1016*)
+- Resource Development (TA0042): Gather Victim Network Information (T1590)
+- (Reporting/Analysis): operational support for post-recon triage and vulnerability-driven prioritization
+
+\*Technique adjacency depends on assessment scope and data sources (e.g., packet capture vs. scan output).
+
+---
+
+### 🔑 WordlistRefinery  
+**High-Performance Password Dataset Processing Engine**
+
+Processes real-world password leaks at scale: streaming pipelines, low memory footprint, entropy scoring, policy/complexity filters, and clean exports for cracking tools or analysis workflows.
+
+🔗 https://github.com/vitalelele/WordlistRefinery
+
+**MITRE ATT&CK (mapping):**
+- Credential Access (TA0006): Brute Force (T1110) support workflows (wordlist refinement, candidate generation, dataset optimization)
+- Resource Development (TA0042): Acquire Infrastructure / Develop Capabilities (T1587*)—tooling to improve operational efficiency
+- (Research/Defense): password strength analysis and corpus intelligence for auditing
+
+\*Indirect mapping: the project is a tooling enabler; usage determines the exact technique alignment.
+
+---
+
+### 📡 QRX  
+**QR Code Generator & Scanner (Python + Flask)**
+
+A lightweight web tool to generate and decode QR codes.
+
+🔗 https://github.com/vitalelele/QRX
+
+---
+
+### 🛡️ Misinformation Fight System  
+**Detection & Analysis of Online Misinformation**
+
+Tooling to analyze content and identify misinformation patterns through automated analysis and feedback loops.
+
+🔗 https://github.com/vitalelele/Misinformation-Fight-System
+
+---
+
+## 🧭 Current Direction
+
+I’m focusing on building a practical offensive-security portfolio:
+- recon → enrichment → triage → reporting
+- repeatable tooling over one-off scripts
+- clean engineering with real-world datasets and constraints
+
+---
+
+## 📫 Let’s Connect
+
+If you’re into penetration testing, offensive security, or building serious security tooling, feel free to reach out.
+
+Let’s break things, responsibly.
