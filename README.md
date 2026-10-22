@@ -31,16 +31,6 @@ And since a lot of that work is repetitive, I write scripts to automate the bori
 
 ---
 
-## 🎯 Projects
-
-### 🔎 [nmap2report](https://github.com/vitalelele/nmap2report)
-Turns Nmap XML scans into clean Markdown/PDF reports: hosts, services, CVEs with CVSS, CWE enrichment and a per-host risk summary. Built because copy-pasting scan results into reports gets old fast.
-
-### 🔑 [WordlistRefinery](https://github.com/vitalelele/WordlistRefinery)
-Chews through big password leaks without eating your RAM: dedup, policy filters, entropy scoring and clean exports for cracking tools or password analysis.
-
----
-
 ## 📫 Let's Connect
 
 Into pentesting, tooling or just want to talk about security? Feel free to reach out.
